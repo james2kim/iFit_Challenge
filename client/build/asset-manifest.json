@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.91902c37.chunk.css",
+    "main.js": "/static/js/main.b60cb905.chunk.js",
+    "main.js.map": "/static/js/main.b60cb905.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7be8970b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7be8970b.js.map",
+    "static/js/2.df44c152.chunk.js": "/static/js/2.df44c152.chunk.js",
+    "static/js/2.df44c152.chunk.js.map": "/static/js/2.df44c152.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.0920b5e6f9c43107dff8f9e856e4e2ef.js": "/precache-manifest.0920b5e6f9c43107dff8f9e856e4e2ef.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.91902c37.chunk.css.map": "/static/css/main.91902c37.chunk.css.map",
+    "static/js/2.df44c152.chunk.js.LICENSE.txt": "/static/js/2.df44c152.chunk.js.LICENSE.txt",
+    "static/media/20-minutes-to-toned-thumb.jpg": "/static/media/20-minutes-to-toned-thumb.1542c118.jpg",
+    "static/media/charles-race-thumb.jpg": "/static/media/charles-race-thumb.00390176.jpg",
+    "static/media/full-body-hiit-thumb.jpg": "/static/media/full-body-hiit-thumb.578dacbc.jpg",
+    "static/media/kafue-river-thumb.jpg": "/static/media/kafue-river-thumb.a55f946a.jpg",
+    "static/media/lake-inniscarra-thumb.jpg": "/static/media/lake-inniscarra-thumb.e0a7c906.jpg",
+    "static/media/performance-series-thumb.jpg": "/static/media/performance-series-thumb.3e82c423.jpg",
+    "static/media/shred-and-burn-thumb.jpg": "/static/media/shred-and-burn-thumb.04edd542.jpg",
+    "static/media/slow-pulls-thumb.jpg": "/static/media/slow-pulls-thumb.7cae9ed1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7be8970b.js",
+    "static/js/2.df44c152.chunk.js",
+    "static/css/main.91902c37.chunk.css",
+    "static/js/main.b60cb905.chunk.js"
+  ]
+}

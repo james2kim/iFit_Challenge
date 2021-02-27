@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+.Card {
+    margin: 10px 10px 10px 10px;
+    box-shadow: 0px 3px 6px 0px #ccc;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+.Thumbnail {
+    width: 100%;
+}
+
+.Image {
+    width: 40px;
+    height:40px;
+}
+
+.Title {
+    font-weight: 600;
+}
+
+.TitleSpacing {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Unique {
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Unique p {
+    margin: 2% 2% 2% 2%;
+    font-weight: 600;
+}
+
+.Backdrop {
+    position: absolute;
+    top:0px;
+    right:0px;
+    height:195px;
+    /* height: 65%; */
+    background-color: rgba(0,0,0,0.3);
+    color:white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.FontSizeNum {
+    font-size: 18px;
+    margin: 5px 5px 5px 5px;
+}
+
+.FontSizeWork {
+    font-size: 12px;
+    margin: 5px 5px 5px 5px;
+}
+
+.Details {
+    color: #385898;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+
+
+/* Backdrop responsiveness  */
+@media (max-width: 1800px) {
+    .Backdrop {
+        height: 160px
+    }
+}
+
+@media (max-width: 1600px) {
+    .Backdrop {
+        height: 150px
+    }
+}
+
+@media (min-width: 1350px) and (max-width: 1600px) {
+    .Backdrop {
+        height: 140px
+    }
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1350px) {
+    .Backdrop {
+        height: 130px
+    }
+
+}
+
+@media (min-width: 1100px) and (max-width: 1200px) {
+    .Backdrop {
+        height: 120px
+    }
+
+}
+
+
+@media (min-width: 1000px) and (max-width: 1100px) {
+    .Backdrop {
+        height: 108px
+    }
+
+}
+
+
+@media (min-width: 900px) and (max-width: 1000px) {
+    .Backdrop {
+        height: 95px
+    }
+
+    .FontSizeNum {
+        font-size: 12px;
+    }
+
+    .FontSizeWork {
+        font-size: 10px;
+    }
+
+    .Title {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 900px) {
+    .Backdrop {
+        height: 85px
+    }
+
+    .FontSizeNum {
+        font-size: 12px;
+    }
+
+    .FontSizeWork {
+        font-size: 10px;
+    }
+    .Title {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 800px) {
+    .Backdrop {
+        display: none;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 720px) {
+    .Title {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 600px) {
+    .FontSizeNum {
+        font-size: 12px;
+    }
+
+    .FontSizeWork {
+        font-size: 10px;
+    }
+
+    .Details {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 415px) and (max-width: 600px) {
+    .Title {
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 415px) {
+    .Title {
+        font-size: 10px;
+    }
+}
+

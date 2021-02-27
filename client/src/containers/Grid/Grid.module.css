@@ -1,0 +1,27 @@
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.Grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width:75%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+@media (max-width: 1400px) {
+    .Grid {
+        width:80%
+    }
+}
+
+@media (max-width: 800px) {
+    .Grid {
+        grid-template-columns: 50% 50%;
+    }
+}
